@@ -1,0 +1,10 @@
+@import "bootstrap-overrides";
+@import "bootstrap/scss/bootstrap";
+
+// Bootstrap Icons is served as a static file (public/vendor/bootstrap-icons)
+// instead of through Vite — its @font-face url()s carry baked-in query
+// hashes that Vite's asset resolver cannot rewrite. See resources/views/layouts/app.blade.php.
+
+@import "theme";
+@import "layout";
+@import "components";

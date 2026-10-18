@@ -1,0 +1,23 @@
+// Brand palette (Section 3.1 of the design brief)
+$primary: #2F6FED;
+$success: #22C55E;
+$secondary: #64748B;
+$danger: #EF4444;
+$warning: #F59E0B;
+$info: #38BDF8;
+$light: #F8FAFC;
+$dark: #0F172A;
+
+$font-family-sans-serif: "Inter", "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+$border-radius: .625rem;
+$border-radius-sm: .5rem;
+$border-radius-lg: 1rem;
+$border-radius-xl: 1rem;
+
+$card-border-width: 0;
+$card-box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
+
+$enable-shadows: false;
+$min-contrast-ratio: 3;
